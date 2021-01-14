@@ -7,12 +7,25 @@ body{
     font-family: 'Bebas Neue', cursive;
     font-family: 'Roboto', sans-serif;
 }
-main{
-    padding-top: 175px;
+
+main {
+    padding-top: 0px;
+  }
+@media (min-width: 992px) and (max-width: 1199px) {
+    main {
+      padding-top: 25px;
+    }
 }
-/* .mt-penguin{
-    padding-top: 175px;
-} */
+@media (min-width: 767px) and (max-width: 991px) {
+    main {
+      padding-top: 125px;
+    }
+}
+@media (max-width: 767px) {
+    main {
+      padding-top: 175px;
+    }
+}
 h1, h2 {
     font-family: 'Bebas Neue', cursive;
 }
