@@ -7,6 +7,9 @@ body{
     font-family: 'Bebas Neue', cursive;
     font-family: 'Roboto', sans-serif;
 }
+.mt-penguin{
+    padding-top: 175px;
+}
 h1, h2 {
     font-family: 'Bebas Neue', cursive;
 }
@@ -40,18 +43,15 @@ button img{
 .card{
     border-radius:1em;
 }
-.card-img{
-    background-color:rgba(241, 241, 241, 1);
-    padding: 2rem;
-    max-width: 90%;
-    max-height: 25rem;
-    height: 20em;
-    width: 20em;
-    margin: 5% auto;
+.card-image-div{
     border-radius: inherit;
-
 }
-.card-footer{
+.card-image{
+    padding: 1em;
+    background-color:rgba(241, 241, 241, 1);
+    border-radius: inherit;
+}
+.card-footer-penguin{
     /* background-color: rgb(255, 255, 255, 0); */
 
     background-color: beige;
