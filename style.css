@@ -1,0 +1,58 @@
+nav{
+    color:black;
+    font-family: 'Roboto', sans-serif;
+    font-weight:bold;
+}
+body{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+h1, h2 {
+    font-family: 'Bebas Neue', cursive;
+}
+h1{
+    font-size: 60px;
+    font-weight:bold;
+}
+h2{
+    color: rgba(54, 57, 88, 1);
+}
+.container-size{
+    margin-top: -150px;
+}
+button img{
+    width: 2em;
+}
+.body-button{
+
+    width: 170px;
+    height: 50px;
+    left: 10%;
+    top: 10%;
+    color: white;
+    background-color: rgba(164, 188, 70, 1);
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10%;
+    border-radius: 0.75em;
+    border: 0;
+    background-image: linear-gradient(180deg, rgb(158, 177, 81), rgb(107, 126, 30));
+}
+.card{
+    border-radius:1em;
+}
+.card-img{
+    background-color:rgba(241, 241, 241, 1);
+    padding: 2rem;
+    max-width: 90%;
+    max-height: 25rem;
+    height: 20em;
+    width: 20em;
+    margin: 5% auto;
+    border-radius: inherit;
+
+}
+.card-footer{
+    /* background-color: rgb(255, 255, 255, 0); */
+
+    background-color: beige;
+}
