@@ -8,21 +8,21 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-main {
+.main-top {
     padding-top: 0px;
   }
 @media (min-width: 992px) and (max-width: 1199px) {
-    main {
+    .main-top {
       padding-top: 25px;
     }
 }
 @media (min-width: 767px) and (max-width: 991px) {
-    main {
+    .main-top {
       padding-top: 125px;
     }
 }
 @media (max-width: 767px) {
-    main {
+    .main-top {
       padding-top: 175px;
     }
 }
@@ -39,7 +39,7 @@ h1{
 h2, h3, h4, h5{
     font-weight: bold;
 }
-.clr-bg-top{
+.clr-bg-top, footer{
     background-color:rgb(255, 251, 240, 100%);
 }
 .clr-guu{
