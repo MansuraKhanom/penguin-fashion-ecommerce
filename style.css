@@ -7,9 +7,12 @@ body{
     font-family: 'Bebas Neue', cursive;
     font-family: 'Roboto', sans-serif;
 }
-.mt-penguin{
+main{
     padding-top: 175px;
 }
+/* .mt-penguin{
+    padding-top: 175px;
+} */
 h1, h2 {
     font-family: 'Bebas Neue', cursive;
 }
